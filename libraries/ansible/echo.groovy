@@ -1,5 +1,11 @@
 void call(){
-    stage("My Test Stage") {
-        sh "echo SUCCESS"
+    stages{
+        stage('Pipeline Prerequisites') {
+            steps {
+                script {
+                    sh(script: "echo SUCCESS", returnStdout: true).trim()
+                }
+            }
+        }
     }
 }
