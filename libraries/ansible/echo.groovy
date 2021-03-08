@@ -1,3 +1,3 @@
 void call(){
-    println "Success"
+    println "ansible: echo()"
 }
