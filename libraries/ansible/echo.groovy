@@ -1,3 +1,5 @@
 void call(){
-    println "ansible: echo()"
+    node {
+        sh 'echo success'
+    }
 }
