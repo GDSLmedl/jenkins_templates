@@ -3,5 +3,5 @@ libraries{
 }
 jte{
     allow_scm_jenkinsfile = false
-    pipeline_template = "pipeline_test.jenkinsfile"
+    pipeline_template = "jenkinsfiles/pipeline_test.jenkinsfile"
 }
